@@ -1,8 +1,8 @@
 class Lista{
 	Lista sig;
-	String val;
+	Arbol val;
 
-	public Lista(String val){
+	public Lista(Arbol val){
 		this.val = val;
 		this.sig = null;
 	}
